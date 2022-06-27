@@ -6,7 +6,7 @@ if (!w.i) {
   w.i.n = (msg) => new Notification("Parking Master 2.0", { body: msg });
 } else {
   w.i.n = w.i.Notify;
-  w.i.n.init({info:{background:"#fff",textColor:"#ddd",notiflixIconColor:"#ddd"}});
+  w.i.n.init({timeout:4000,info:{background:"#fff",textColor:"#ddd",notiflixIconColor:"#ddd"}});
 }
 const tips = [{ type: "tip", text: "Use keyboard shortcuts like the navigation arrows to drive the car" }, { type: "tip", text: "Gamepads like Xbox and PlayStation controllers are supported too" }, { type: "reminder", text: "Signup for a free account and save your points wherever you go" }, { type: "reminder", text: "Use the Autopark (A) Option in all levels for autoparking" }, { type: "reminder", text: "Play world-wide games with the multiplayer option in the main menu." }];
 function tip() {
