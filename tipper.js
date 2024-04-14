@@ -1,5 +1,5 @@
 const w = window === window.top ? window : window.top;
-w.Notiflix ? void(0) : document.body.innerHTML += `<script src="https://cdn.jsdelivr.net/gh/notiflix/Notiflix@latest/dist/notiflix-aio-3.2.5.min.js"></script>`;
+w.Notiflix ? void(0) : document.body.innerHTML += `<script src="https://cdn.jsdelivr.net/gh/notiflix/Notiflix@latest/dist/notiflix-aio-3.2.7.min.js"></script>`;
 w.i = w.Notiflix;
 if (!w.i) {
   w.i = w;
